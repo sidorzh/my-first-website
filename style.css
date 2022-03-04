@@ -10,11 +10,21 @@ header {
   justify-content: space-between;
   padding-left: 50px;
   padding-right: 50px;
+  margin: 0;
   background-color: rgb(41, 23, 1);
 }
 
 h1 {
   font-family: "Fredoka One";
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(154, 105, 1);
+}
+
+header a:hover {
+  color: rgb(255, 192, 97);
 }
 
 nav ul {
@@ -35,11 +45,44 @@ nav ul {
   width: 500px;
   border-radius: 10px;
   margin-top: 42px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
 }
 
 #hello a {
   color: rgb(154, 105, 1);
   text-decoration: none;
+}
+
+#hello a:hover {
+  color: rgb(255, 192, 97);
+}
+
+#social-media {
+  background-color: rgb(106, 73, 1);
+  text-align: center;
+  padding-top: 24px;
+}
+
+#social-media ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding-bottom: 56px;
+  margin-top: 40px;
+}
+
+#social-media ul li {
+  width: 300px;
+  height: 150px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+}
+
+#social-media ul li img {
+  width: 250px;
+  max-height: 100%;
 }
 
 footer {
