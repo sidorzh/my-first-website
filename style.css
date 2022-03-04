@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(74, 52, 26);
+  color: rgb(255, 192, 97);
+  margin: 0;
+  font-family: "Roboto";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgb(41, 23, 1);
+}
+
+h1 {
+  font-family: "Fredoka One";
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Fredoka One";
+}
+
+#hello {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+#hello img {
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 42px;
+}
+
+#hello a {
+  color: rgb(154, 105, 1);
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(41, 23, 1);
+  margin-top: 400px;
+}

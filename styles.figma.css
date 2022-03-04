@@ -1,0 +1,28 @@
+body {
+  background-color: #fafafa;
+  font-family: Roboto;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  width: 800px;
+  height: 283px;
+  border-radius: 16px;
+  padding: 16px;
+  background-color: white;
+  margin-bottom: 16px;
+}
+
+header {
+  margin-top: 24px;
+  font-size: 36px;
+}
+
+main {
+  margin-left: 250px;
+}
