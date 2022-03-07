@@ -42,10 +42,10 @@ header a:hover {
   color: rgb(255, 192, 97);
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: flex-end;
-}
+} */
 
 nav ul {
   list-style: none;
@@ -108,6 +108,10 @@ nav ul li {
   border-radius: 8px;
 }
 
+#social-media ul li:hover {
+  opacity: 70%;
+}
+
 #social-media ul li img {
   width: 250px;
   max-height: 100%;
@@ -151,7 +155,7 @@ nav ul li {
 #contacts {
   background-color: rgb(106, 73, 1);
   text-align: center;
-  padding-top: 24px;
+  padding-top: 20px;
   font-size: 20px;
 }
 
@@ -184,5 +188,25 @@ footer {
   }
   #contacts ul {
     flex-direction: column;
+  }
+
+  #hello img {
+    width: 300px;
+  }
+
+  header {
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  nav {
+    font-size: 12px;
+  }
+
+  nav ul {
+    padding: 0;
   }
 }
