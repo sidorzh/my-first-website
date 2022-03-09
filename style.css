@@ -1,3 +1,5 @@
+@import url(components/main_img_style/main_img.css);
+
 main {
   margin-top: 110px;
 }
@@ -18,11 +20,8 @@ p {
 header {
   display: flex;
   justify-content: space-around;
-  /* padding-left: 50px;
-  padding-right: 50px; */
   margin: 0;
   background-color: rgb(41, 23, 1);
-
   position: fixed;
   top: 0;
   width: 100%;
@@ -42,19 +41,12 @@ header a:hover {
   color: rgb(255, 192, 97);
 }
 
-/* nav {
-  display: flex;
-  justify-content: flex-end;
-} */
-
 nav ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 8px;
   font-family: "Fredoka One";
-
-  /* text-align: right; should be on right - but not seen */
 }
 
 #hello {
@@ -63,13 +55,13 @@ nav ul {
   margin-top: 60px;
 }
 
-#hello img {
+/* #hello img {
   width: 500px;
   border-radius: 10px;
   margin-top: 42px;
   margin-bottom: 50px;
   box-sizing: border-box;
-}
+} */
 
 nav ul li {
   display: inline-block;
