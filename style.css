@@ -76,6 +76,20 @@ nav ul li {
   color: rgb(255, 192, 97);
 }
 
+.arrow_div {
+  width: 50px;
+  position: fixed;
+  right: 10vw;
+  bottom: 20vh;
+}
+
+.arrow_div img {
+  width: 100%;
+  background-color: rgb(212, 149, 12);
+  border-radius: 50%;
+  padding: 10px;
+}
+
 #social-media {
   background-color: rgb(106, 73, 1);
   text-align: center;
